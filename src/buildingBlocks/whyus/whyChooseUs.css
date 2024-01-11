@@ -1,0 +1,180 @@
+#whyContainer{
+width: 100vw;
+height: 85vh;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+margin-bottom: 5rem;
+}
+
+#whyChooseUs{
+    width: 94%;
+    height: 100%;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap:12rem;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#firstHeading{
+    font-size: 1.1rem;
+}
+
+#whyCenter{
+    width: 23%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 0;
+    padding-top: 0;
+}
+
+#whyRight{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 0;
+}
+
+.whyRightConts{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.whyRightConts h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin:0
+}
+
+.whyRightConts p{
+    width:22%;
+    font-size: 1.1rem;
+    line-height: 22px;
+}
+
+@media(max-width:1024px){
+    #firstHeading{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    #whyContainer{
+        height: 78vh;
+        justify-content: flex-start;
+    }
+    #whyChooseUs{
+        width: 100%;
+        gap:3rem;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        padding-top: 2rem;
+        padding: 0;
+    }
+
+    #firstHeading{
+        line-height: 0;
+        padding: 0;
+    }
+
+    #whyCenter{
+        width: 80%;
+        font-size: 1.1rem;
+        line-height: 25px;
+        text-align: center;
+    }
+    #whyRight{
+        width: 100%;
+        gap:10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .whyRightConts{
+        align-items: center;
+    }
+
+    .whyRightConts h1{
+        font-size: 1.4rem;
+    }
+    
+    .whyRightConts p{
+        width:80%;
+        font-size: 0.8rem;
+        line-height: 18px;
+        text-align: center;
+
+    }
+}
+
+@media(min-width:1025px){
+    .whyRightConts h1{
+        font-size: 2.2rem;
+        font-weight: bolder;
+        margin:0
+    }
+    
+    .whyRightConts p{
+        width:35%;
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    #whyCenter{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}
+
+@media(min-width:1280px){
+    #firstHeading{
+        font-size: 1.2rem;
+        width: 20%;
+    }
+
+    .whyRightConts{
+        gap:5px
+    }
+
+    .whyRightConts h1{
+        font-size: 2.2rem;
+        font-weight: bolder;
+        margin:0;
+        padding: 0;
+    }
+    
+    .whyRightConts p{
+        width:35%;
+        font-size: 1.4rem;
+        line-height: 21px;
+    }
+
+    #whyCenter{
+        font-size: 1.4rem;
+        line-height: 28px;
+    }
+    #whyRight{
+        gap:10px;
+    }
+}
+
+@media(min-width:1536px){
+    #whyCenter{
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+
+    .whyRightConts h1{
+        font-size: 2.5rem;
+    }
+    
+    .whyRightConts p{
+        width:35%;
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+}

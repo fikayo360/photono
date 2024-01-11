@@ -1,0 +1,136 @@
+#portfolio{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    background-color: '#CFCFEA';
+}
+
+#portfolio h1{
+    font-size: 8rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    background-color: blue;
+    line-height: 0;
+}
+
+#gallery{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+    gap:15px
+}
+
+.galleryItem{
+    width: 31%;
+    height: 320px;
+    border: 0.5px solid slategrey;
+}
+
+.galleryItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media(min-width:250px){
+    #portfolio{
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+    }
+    #gallery{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: 1rem;
+        gap:15px
+    }
+    
+    .galleryItem{
+        width: 80%;
+        height: 320px;
+        border: 0.5px solid slategrey;
+    }
+
+    #portfolio h1{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+}
+
+@media(min-width:640px){
+    #portfolio{
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+    }
+
+    #gallery{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-top: 1rem;
+        gap:14px;
+    }
+
+    .galleryItem{
+        width: 85%;
+        height: 350px;
+        border: 0.5px solid slategrey;
+    }
+
+    #portfolio h1{
+        font-size: 3rem;
+        margin-left: 2rem;
+    }
+}
+
+@media(min-width:768px){
+    #portfolio{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    #gallery{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 1rem;
+        justify-content: space-between;
+        gap:10px;
+    }
+
+    .galleryItem{
+        width:48%;
+        height: 350px;
+        border: 0.5px solid slategrey;
+    }
+
+    #portfolio h1{
+        font-size: 3rem;
+        margin-left: 2rem;
+    }
+}
+
+@media(min-width:1280px){
+    .galleryItem{
+        width:31%;
+        height: 350px;
+        border: 0.5px solid slategrey;
+    }
+    #portfolio h1{
+        font-size: 8rem;
+    }
+}
+
+@media(min-width:1536px){
+    #portfolio{
+      padding-top: 5rem;
+    }
+}

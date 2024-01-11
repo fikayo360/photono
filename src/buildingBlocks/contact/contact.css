@@ -1,0 +1,258 @@
+#contact{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    background-color: #F5F5F5;
+    justify-content: center;
+}
+
+#contactWrap{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contactLeft,#contactRight{
+    width: 45%;
+    height: 60%;
+    display: flex;
+    padding: 20px;
+}
+
+#contactLeft{
+    gap:2rem;
+    flex-direction: column;
+}
+
+#contactLeft span{
+    line-height: 0;
+}
+
+#mainHeading{
+    font-size: 3rem;
+    line-height: 0;
+}
+
+#socialIcons{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    margin-bottom: 1rem;
+}
+
+.socialIcon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.socialIcon:hover{
+    width: 28px;
+    height: 28px;
+}
+
+.infoCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:7px
+}
+
+.infoCont span{
+    font-size: 1.5rem;
+}
+
+.infoCont img{
+    width: 25px;
+    height: 25px;
+}
+
+#contactRight{
+    align-items: center;
+}
+
+#contactRight form{
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+#contactRight form input{
+    width: 90%;
+    height: 2.5rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    padding: 15px;
+    border: 2px solid rgb(8, 8, 8);
+}
+
+#contactRight form input::placeholder,textarea::placeholder{
+    font-size: 1.1rem;
+    color: black;
+}
+
+#contactRight form textarea{
+    width: 90%;
+    height: 6rem;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    border: 2px solid rgb(8, 8, 8);
+}
+
+
+#contactRight form button{
+    width: 28%;
+    height: 3rem;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #1c191d;
+}
+
+#contactRight form button:hover{
+    color: limegreen;
+}
+
+@media(min-width:250px){
+    .infoCont{
+        width: 90%;
+        gap:8px;
+        justify-content: center;
+    }
+    
+    .infoCont span{
+        font-size: 1.2rem;
+    }
+
+    .infoCont img{
+        width: 20px;
+        height: 20px;
+    }
+
+    #contactLeft{
+        padding: 0;
+        align-items: center;
+    }
+
+    #contactRight form input{
+        height: 1.5rem;
+        font-size: 1rem;
+    }
+    
+    #contactRight form input::placeholder,textarea::placeholder{
+        font-size: 0.8rem;
+    }
+    
+    #contactRight form textarea{
+        width: 90%;
+        height: 6rem;
+        padding: 15px;
+        border-radius: 15px;
+        font-size: 1.1rem;
+        border: 2px solid rgb(8, 8, 8);
+    }
+    
+    
+    #contactRight form button{
+        width: 50%;
+        height: 3rem;
+        padding: 8px;
+        font-size: 1rem;
+    }
+
+    #contactRight form{
+        gap: 1rem;
+    }
+}
+
+
+@media(max-width:1024px){
+    #contactWrap{
+        width: 100%;
+        gap:rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    #contactLeft,#contactRight{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        padding: 20px;
+    }
+
+    #contactLeft{
+        height: 42%;
+        gap: 0.8rem;
+    }
+
+    #contact{
+        height: 100vh;
+    }
+    #contactRight form button{
+        width: 98%;
+        height: 3rem;
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    #contactLeft{
+        gap:3rem;
+        align-items:center ;
+    }
+
+    #socialIcons{
+        justify-content: center;
+    }
+
+    .infoCont{
+        margin: 0;
+    }
+}
+
+@media(min-width:1024px){
+    #socialIcons{
+        justify-content: center;
+    }
+    .infoCont{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:7px
+    }
+    
+    .infoCont span{
+        font-size: 1.5rem;
+    }
+
+    #contactLeft{
+        align-items: flex-start;
+    }
+
+    .infoCont{
+        justify-content: flex-start;
+    }
+    
+    #socialIcons{
+        justify-content: flex-start;
+    }
+
+    #contactLeft{
+        gap:2rem;
+    }
+
+    #contactRight form button{
+        width: 30%;
+    }
+}
