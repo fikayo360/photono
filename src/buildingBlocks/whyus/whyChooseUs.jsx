@@ -1,4 +1,4 @@
-import './WhyChooseUs.css'
+import './whyChooseUs.css'
 const WhyChooseUs = () => {
     return (
         <section id="whyContainer">
