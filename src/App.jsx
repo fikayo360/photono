@@ -21,7 +21,7 @@ function App() {
 
 
   return (
-    <>
+    <>  
       <Hero />
       <About />
       <WhyChooseUs />
