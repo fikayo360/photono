@@ -64,17 +64,19 @@ margin-bottom: 5rem;
     }
 
     #whyContainer{
-        height: 78vh;
-        justify-content: flex-start;
+        height: auto;
+        justify-content: center;
     }
+
     #whyChooseUs{
         width: 100%;
-        gap:3rem;
+        height: auto;
+        gap:15px;
         flex-direction: column;
-        justify-content:flex-start;
+        justify-content:center;
         align-items: center;
         padding-top: 2rem;
-        padding: 0;
+        padding: 5px;
     }
 
     #firstHeading{
@@ -90,7 +92,7 @@ margin-bottom: 5rem;
     }
     #whyRight{
         width: 100%;
-        gap:10px;
+        gap:8px;
         align-items: center;
         justify-content: center;
     }

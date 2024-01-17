@@ -17,6 +17,7 @@ const Hero = () => {
       <section id="hero" style={{backgroundImage:'url(./heroBg2.jpg)'}}>
 
          {navActive?<NavMobile navActive={toggleMobileNav} />:null}
+         
         <div id="heroNav">
                 <h1>PHOTONO</h1>
                 <div id="navCenter">

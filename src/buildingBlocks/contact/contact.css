@@ -126,26 +126,25 @@
 @media(min-width:250px){
     .infoCont{
         width: 90%;
-        gap:8px;
+        gap:6px;
         justify-content: center;
     }
     
     .infoCont span{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .infoCont img{
-        width: 20px;
-        height: 20px;
+        width: 19px;
+        height: 19px;
     }
 
     #contactLeft{
-        padding: 0;
         align-items: center;
     }
 
     #contactRight form input{
-        height: 1.5rem;
+        height: 1.3rem;
         font-size: 1rem;
     }
     
@@ -179,37 +178,44 @@
 @media(max-width:1024px){
     #contactWrap{
         width: 100%;
-        gap:rem;
+        height: 90%;
+        gap:2rem;
         flex-direction: column;
         align-items: center;
         justify-content:center;
     }
     
     #contactLeft,#contactRight{
-        width: 80%;
-        height: 50%;
+        width: 100%;
+        height: 40%;
         display: flex;
-        padding: 20px;
+        padding: 10px;
     }
 
     #contactLeft{
-        height: 42%;
-        gap: 0.8rem;
+        align-items:center ;
+        justify-content: center;
+        gap:18px;
+    }
+
+    #contactLeft h1{
+        line-height: 0;
+        font-size: 1.3rem;
+    }
+
+    #contactRight{
+        justify-content: center;
     }
 
     #contact{
-        height: 100vh;
+        height: auto;
     }
+
     #contactRight form button{
         width: 98%;
         height: 3rem;
         padding: 10px;
         font-size: 1.2rem;
-    }
-
-    #contactLeft{
-        gap:3rem;
-        align-items:center ;
     }
 
     #socialIcons{
@@ -221,7 +227,7 @@
     }
 }
 
-@media(min-width:1024px){
+@media(min-width:1025px){
     #socialIcons{
         justify-content: center;
     }
