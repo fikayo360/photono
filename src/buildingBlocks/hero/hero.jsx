@@ -14,7 +14,7 @@ const Hero = () => {
    }
 
     return(
-      <section id="hero" style={{backgroundImage:'url(./heroBg2.jpg)'}}>
+      <section id="hero" style={{backgroundImage:'url(./heroBg2.jpg)'}}> 
 
          {navActive?<NavMobile navActive={toggleMobileNav} />:null}
          
