@@ -51,11 +51,11 @@
 #heroPtext{
     position: absolute;
     color: #ffffff;
-    width:35%;
+    width:60%;
     font-weight: bold;
-    font-size: 5.5rem;
-    line-height: 80px;
-    top:9rem;
+    font-size: 7rem;
+    line-height: 150px;
+    top:10rem;
     left:4rem
 }
 
@@ -85,26 +85,30 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 80vh;
     }
     #heroNav{
         width:90%
+    }
+    #heroPtext{
+        width: 80%;
+        font-size: 1.7rem;
     }
 }
 
 @media(min-width:250px){
     #heroPtext{
-        font-size: 1.2rem;
-        line-height: 30px;
+        line-height: 50px;
         top:9rem;
         left:2rem
     }
     
     #heroPtextO{
         position: absolute;
-        width:30%;
-        font-size: 0.8rem;
+        width:50%;
+        font-size: 1rem;
         font-weight: bold;
-        line-height: 18px;
+        line-height: 20px;
         color: rgb(231, 230, 222);
         right: 2rem;
         bottom: 4rem;
@@ -183,17 +187,26 @@
         font-size: 1.2rem;
     }
     #heroPtextO{
-        font-size: 1.2rem;
-        line-height: 26px;
-    }
-    #heroPtextO{
         right: 10rem;
         width: 18%;
+        font-size: 1.2rem;
+        line-height: 26px;
     }
 }
 
 @media(min-width:1659px){
+    #heroPtext{
+        width: 80%;
+        font-size: 7rem;
+        line-height: 150px;
+    }
     #navCenter h1 a{
         color: #23022E;
+    }
+    #heroPtextO{
+        right: 8rem;
+        width: 22%;
+        font-size: 1.4rem;
+        line-height: 30px;
     }
 }

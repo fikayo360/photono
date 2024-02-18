@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
 
         <p  ref={ref} id="heroPtext" className={`${inView?'animate__animated animate__fadeInDown animate__slow':''}`}> THE BEST FOR ALL YOUR PHOTOGRAPHY NEEDS </p>
-        <p ref={ref} id="heroPtextO" className={`${inView?'animate__animated animate__fadeInDown animate__slow':''}`}> choose us to immortalize your precious moments in priceless and immersive works of art </p>
+        <p ref={ref} id="heroPtextO" className={`${inView?'animate__animated animate__fadeInDown animate__slow animate__delay-2s':''}`}> choose us to immortalize your precious moments in priceless and immersive works of art </p>
 
       </section>
     )
